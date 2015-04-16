@@ -1088,11 +1088,13 @@ h1[id], h2[id] {
   background-color: #563d7c;
 }
 
-#toc {
-  width: 275px;
+@media screen and (max-width: 1199px) {
+  #toc {
+    width: 275px;
+  }
 }
 @media screen and (max-width: 990px) {
-    #toc {
-        display: none;
-    }
+  #toc {
+    display: none;
+  }
 }
